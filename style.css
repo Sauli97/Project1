@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(245, 171, 171);
+}
+
+#id {
+    background-color: blue;
+}
+
+p {
+    color: #4139b8;
+    font-size: 24px;
+    font-weight: bold;
+    text-align:center;
+    background-color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img {
+    width:auto;
+    height: 200px;
+}
+
+.paragraph {
+    background-color: white;
+}
+
