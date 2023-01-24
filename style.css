@@ -1,26 +1,19 @@
 body {
-    background-color: rgb(245, 171, 171);
+    box-sizing: border-box;
 }
-
-#id {
-    background-color: blue;
-}
-
-p {
-    color: #4139b8;
-    font-size: 24px;
-    font-weight: bold;
-    text-align:center;
-    background-color: red;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-img {
-    width:auto;
-    height: 200px;
-}
-
-.paragraph {
-    background-color: white;
-}
-
+.container {
+    height: 140px;
+    padding: 16px;
+    background: plum;
+    border: 4px solid indigo;
+    display: flex;
+    justify-content:end;
+    gap: 10px;
+  }
+  
+  .item {
+    width: 60px;
+    height: 60px;
+    border: 4px solid darkslategray;
+    background: skyblue;
+  }
